@@ -1,0 +1,1 @@
+<?php require_once('header_admin.php');?>{content}<?php require_once('footer_admin.php');?>

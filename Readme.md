@@ -40,6 +40,21 @@ Server compiled with....
  -D AP_TYPES_CONFIG_FILE="conf/mime.types"
  -D SERVER_CONFIG_FILE="conf/httpd.conf"
 
+ * PDO - SQL Server <br>
+ ```sudo yum install php-sqlsrv``` <br/>
+ Last metadata expiration check: 0:05:57 ago on Wed 05 Feb 2020 01:34:55 PM WIB.
+Dependencies resolved. <br/>
+
+| Package      | Architecture       | Version   | Repository | Size
+| ------------- |:-------------:| -----:| -----:|-----:|
+| php-sqlsrv      | x86_64 | 5.8.0-1.fc30.remi.7.3  | remi-modular | 268 k
+### Result Phpinfo
+
+![ no image ](template/coreui/img/sql-Serv-module.png)
+
+
+
+
 ### Author
 
 **heriipurnama**
@@ -52,6 +67,6 @@ Server compiled with....
 
 ### License
 
-Copyright © 2020, [ MIS - Pt.Globalindo ](https://github.com/Globalindo-intimates/E-CLEAN.git).
+Copyright © 2020, [ MIS - Pt.Globalindo ](https://github.com/Globalindo-intimates/stb.git).
 
 Released under the [MIT License](LICENSE).

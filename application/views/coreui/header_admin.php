@@ -8,7 +8,7 @@
     <meta name="author" content="Lukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
     <link rel="shortcut icon" href="<?php echo TEMPLATE_ASSETS;?>img/loginPage1.jpeg">
-    <title>medan</title>
+    <title>STB Prod. Report</title>
     
     <!-- Icons -->
     <link href="<?php echo TEMPLATE_ASSETS;?>css/font-awesome.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
     </script>
 </head>
 <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden pace-done">
-    <header class="app-header navbar">
+    <header class="app-header navbar"> STB
         <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button">☰</button>
         <a class="navbar-brand" href="#"></a>
         <ul class="nav navbar-nav d-md-down-none">

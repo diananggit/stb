@@ -34,7 +34,7 @@ class User_model extends CI_Model
     function get_all_G_USERS($params = array())
     {
         $sql = " SELECT * FROM g_users 
-        JOIN g_groups ON g_users.GROUP_ID = g_groups.GROUP_ID ORDER BY MODIFIED_DATE DESC ";
+         ";
         $query = $this->db->query( $sql );
 
         if(isset($params) && !empty($params)){

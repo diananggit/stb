@@ -9,7 +9,7 @@
     <meta name="keyword" content="CoreUI Bootstrap 4 Admin Template">
     <link rel="shortcut icon" href="<?php echo TEMPLATE_ASSETS;?>img/loginPage1.jpeg">
 
-    <title>medan</title>
+    <title>STB Prod. Report</title>
 
     <!-- Icons -->
     <link href="<?php echo TEMPLATE_ASSETS;?>css/font-awesome.min.css" rel="stylesheet">

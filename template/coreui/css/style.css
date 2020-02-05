@@ -2951,7 +2951,7 @@ tbody.collapse.show {
   position: relative;
   display: flex;
   flex-direction: column;
-  opacity: 1;
+  opacity: 0.8;
   background-color: #fff;
   border: 1px solid #cfd8dc; }
 
@@ -7647,7 +7647,7 @@ base-chart.chart {
     margin-right: 0;
     /* background-color: #fff; */
     background-color: #39b2d5;
-    background-image: url("../img/logo.png");
+    /* background-image: url("../img/logo.png"); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 145px auto;

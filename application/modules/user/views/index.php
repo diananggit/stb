@@ -15,10 +15,10 @@
                             <tr>
                                 <th>Actions</th>
                                 <th>Username</th>
-                                <th>Group Name</th>
-                                <th>Created By</th>
+                               
+                              
                                 <th>Created Date</th>
-                                <th>Modified Date</th>
+                              
                              
                             </tr>
                             <?php foreach($user as $c){ ?>
@@ -28,10 +28,10 @@
                                     <a href="<?php echo site_url('index.php/user/remove/'.$c->U_ID); ?>" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure to remove this User?');">Delete</a>
                                 </td>
                                 <td><?php echo $c->USERNAME; ?></td>
-                                <td><?php echo $c->GROUP_NAME; ?></td>
-                                <td><?php echo $c->CREATED_BY; ?></td>
+                              
+                             
                                 <td><?php echo $c->CREATED_DATE;  ?></td>
-                                <td><?php echo $c->MODIFIED_DATE;  ?></td>      
+                                  
                             </tr>
                             <?php } ?>
                         </table>

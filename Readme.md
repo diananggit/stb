@@ -48,7 +48,7 @@ Server compiled with....
 
 ### Preview
 
-![ no image ](template/coreui/img/loginPage2.png)
+<!-- ![ no image ](template/coreui/img/loginPage2.png) -->
 
 ### License
 

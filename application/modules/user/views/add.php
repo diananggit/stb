@@ -36,7 +36,7 @@
                            <!-- end input type hidden -->
 
                             <div class="form-group">
-                            <label for="groupDesc" class="col-md-4 control-label"><span class="text-danger">*</span>Group Name</label>
+                            <label for="groupDesc" class="col-md-4 control-label"><span class="text-danger">*</span>Work Position</label>
                                 <div class="col-md-8">
                                     <select class="form-control" name="groupId" id="groupId">
                                     <?php

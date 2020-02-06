@@ -7,7 +7,7 @@
     <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
     <meta name="author" content="Lukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
-    <link rel="shortcut icon" href="<?php echo TEMPLATE_ASSETS;?>img/loginPage1.jpeg">
+    <link rel="shortcut icon" href="<?php echo TEMPLATE_ASSETS;?>img/favicon.png">
     <title>STB Prod. Report</title>
     
     <!-- Icons -->
@@ -29,27 +29,23 @@
         <a class="navbar-brand" href="#"></a>
         <ul class="nav navbar-nav d-md-down-none">
             <li class="nav-item">
-                <a class="nav-link navbar-toggler sidebar-toggler" href="#">☰</a>
+                <a class="nav-link navbar-toggler sidebar-toggler" href="#" style="color:white;">☰</a>
             </li>
 
             <li class="nav-item px-3">
-                <a class="nav-link" href="#">Dashboard</a>
+                <a class="nav-link" href="#" style="color:white;">Dashboard</a>
             </li>
         </ul>
         <ul class="nav navbar-nav ml-auto">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;">
                     <img src="<?php echo TEMPLATE_ASSETS;?>img/avatars/avatar.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-                    <span class="d-md-down-none">  <?php echo $username = $_SESSION['nik'];?></span>
-                  
-                   
+                    <span class="d-md-down-none" style="color:white;">  <?php echo $username = $_SESSION['nik'];?></span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
-
                     <div class="dropdown-header text-center">
                         <strong>Account</strong>
                     </div>
-                    
                     <a class="dropdown-item" href="<?php echo base_url();?>index.php/administrator/logout"><i class="fa fa-lock"></i> Logout</a>
                 </div>
             </li>

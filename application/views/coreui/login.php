@@ -7,7 +7,7 @@
     <meta name="description" content="CoreUI Bootstrap 4 Admin Template">
     <meta name="author" content="Lukasz Holeczek">
     <meta name="keyword" content="CoreUI Bootstrap 4 Admin Template">
-    <link rel="shortcut icon" href="<?php echo TEMPLATE_ASSETS;?>img/loginPage1.jpeg">
+    <link rel="shortcut icon" href="<?php echo TEMPLATE_ASSETS;?>img/favicon.png">
 
     <title>STB Prod. Report</title>
 
@@ -59,8 +59,8 @@
                         <div class="card-block">
                         <div class="row">
                             <div class="col-md-4">
-                            <img src="<?php echo TEMPLATE_ASSETS;?>img/padlock.png" 
-                                width="90" 
+                            <img src="<?php echo TEMPLATE_ASSETS;?>img/logo.png" 
+                                width="130" 
                                 height="80"
                             > 
                             </div>

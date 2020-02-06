@@ -39,10 +39,10 @@
                                     <span class="text-danger"><?php echo form_error('password_conf');?></span>
                                 </div>
                             </div>
-                            
+
                             <div class="form-group">
                                 <div class="col-sm-offset-4 col-sm-8">
-                                    <button type="submit" class="btn btn-success">Save</button>
+                                    <button type="submit" class="btn btn-success">Update</button>
                                 </div>
                             </div>
                             

@@ -1,56 +1,75 @@
-<div class="card">
-    <div class="card-block">
+<div id="ui-view">
+    <div class="animated fadeIn">
         <div class="row">
-            <div class="col-sm-5">
-                <?php  
-                  $data =   $this->session->all_userdata();
-                  $username = $data['nik'];   ?>
-                <p> Dashboard! </p>
-                <label> Welcome <b><?php echo $username ?>.</b> <label>
-                <canvas id="myChart" width="400" height="400"></canvas>
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-align-justify"></i> Auto Straps
+                    </div>
+                    <div class="card-body">
+                        <p align="center"><b> Auto Straps - Summaries Output Report </b> 
+                            <font color="red">
+                                <b>
+                                    <script type="text/javascript">
+                                        const event = new Date();
+                                        event.setDate(event.getDate() - 1);
+
+                                        const options = { weekday: 'long', month: 'long', day: 'numeric',  year: 'numeric',};
+                                        let date = event.toLocaleDateString(undefined, options);
+
+                                        document.write(date);
+                                    </script>.
+                                </b>
+                            </font>
+                        </p>
+                        <table class="table table-striped table-bordered">
+                            <tr>
+                                <td> Total Output </td>
+                                <td> <?php echo " ##### "; ?> Pairs </td>
+                            </tr>
+                            <tr>
+                                <td> Total Efficiency </td> 
+                                <td> <?php echo " ##### "; ?> % </td>
+                            </tr>
+                        </table>
+
+                        <table class="table table-striped table-bordered">
+                            <tr>
+                                    <th>Descriptions</th>
+                                    <?php
+                                        $query = $this->db->query(" SELECT * FROM dt_machine_prod ORDER BY ID ASC ");
+                                        foreach ($query->result() as $c){
+                                    ?>
+                                    <th> <?php echo $c->Keterangan; ?></th>
+                                    <?php
+                                        }
+                                    ?>
+                            </tr>
+                            
+                            <?php
+                                $query = $this->db->query(" SELECT * FROM dt_machine_description ORDER BY DESC_MACHINE_ID ASC ");
+                                    foreach ($query->result() as $c){
+                            ?>
+                                <tr> 
+                                    <td><?php echo $c->DESCRIPTION; ?></td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            <?php
+                                    }
+                            ?>
+                        </table>
+                        <div class="pull-left">
+                            <span class="text-danger"><b>* Info</b></span><br/>
+                            <label>MC : Machine</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!--/.col-->
         </div>
     </div>
 </div>
-
-
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-    }
-});
-</script>

@@ -62,33 +62,27 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['user/dashboard'] = 'dashboard/index';
 
-$route['user/building'] = 'user_buildings/index';
-$route['user/building/(:any)'] = 'user_buildings/$1';
-$route['user/building/(:any)/(:any)'] = 'user_buildings/$1/$2';
-$route['user/building/(:any)/(:any)/(:any)'] = 'user_buildings/$1/$2/$3';
-
-$route['user/bathroom'] = 'user_bathrooms/index';
-$route['user/bathroom/(:any)'] = 'user_bathrooms/$1';
-$route['user/bathroom/(:any)/(:any)'] = 'user_bathrooms/$1/$2';
-$route['user/bathroom/(:any)/(:any)/(:any)'] = 'user_bathrooms/$1/$2/$3';
-
-$route['user/reportCleaningBuilding'] = 'user_reports_building/index';
-$route['user/reportCleaningBuilding/(:any)'] = 'user_reports_building/$1';
-$route['user/reportCleaningBuilding/(:any)/(:any)'] = 'user_reports_building/$1/$2';
-$route['user/reportCleaningBuilding/(:any)/(:any)/(:any)'] = 'user_reports_building/$1/$2/$3';
-
-$route['user/reportCleaningBathroom'] = 'user_reports_bathroom/index';
-$route['user/reportCleaningBathroom/(:any)'] = 'user_reports_bathroom/$1';
-$route['user/reportCleaningBathroom/(:any)/(:any)'] = 'user_reports_bathroom/$1/$2';
-$route['user/reportCleaningBathroom/(:any)/(:any)/(:any)'] = 'user_reports_bathroom/$1/$2/$3';
-
-$route['user/packing'] = 'user_employee/index';
-$route['user/packing/(:any)'] = 'user_employee/$1';
-$route['user/packing/(:any)/(:any)'] = 'user_employee/$1/$2';
-$route['user/packing/(:any)/(:any)/(:any)'] = 'user_employee/$1/$2/$3';
+$route['user/inputData'] = 'user_input_prod/index';
+$route['user/inputData/(:any)'] = 'user_input_prod/$1';
+$route['user/inputData/(:any)/(:any)'] = 'user_input_prod/$1/$2';
+$route['user/inputData/(:any)/(:any)/(:any)'] = 'user_input_prod/$1/$2/$3';
 
 
 /* 
+*
+* routes admin/spv
+*
+*/
+
+$route['adminSPV/adminSpvDashboard'] = 'admin_spv_dashboard/index';
+
+$route['adminSPV/reportProductions'] = 'adminSPV_reports_production/index';
+$route['adminSPV/reportProductions/(:any)'] = 'adminSPV_reports_production/$1';
+$route['adminSPV/reportProductions/(:any)/(:any)'] = 'adminSPV_reports_production/$1/$2';
+$route['adminSPV/reportProductions/(:any)/(:any)/(:any)'] = 'adminSPV_reports_production/$1/$2/$3';
+
+
+/*
 * 
 * routes admin 
 *
@@ -110,11 +104,6 @@ $route['administrator/reportCleaningBuilding'] = 'admin_reports_building/index';
 $route['administrator/reportCleaningBuilding/(:any)'] = 'admin_reports_building/$1';
 $route['administrator/reportCleaningBuilding/(:any)/(:any)'] = 'admin_reports_building/$1/$2';
 $route['administrator/reportCleaningBuilding/(:any)/(:any)/(:any)'] = 'admin_reports_building/$1/$2/$3';
-
-$route['administrator/reportCleaningBathroom'] = 'admin_reports_bathroom/index';
-$route['administrator/reportCleaningBathroom/(:any)'] = 'admin_reports_bathroom/$1';
-$route['administrator/reportCleaningBathroom/(:any)/(:any)'] = 'admin_reports_bathroom/$1/$2';
-$route['administrator/reportCleaningBathroom/(:any)/(:any)/(:any)'] = 'admin_reports_bathroom/$1/$2/$3';
 
 
 $route['administrator/employee'] = 'admin_employee/index';

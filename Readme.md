@@ -1,7 +1,11 @@
 ## STB  - Production Report
 
-1- Acces super Admin <br>
+1. Acces Super Admin <br>
    USERNAME dan PASSWORD : admin : admin <br>
+2. Acces Super Visor <br>
+   USERNAME dan PASSWORD : supervisor : 123! <br>
+3. Acces Opertator <br>
+   USERNAME dan PASSWORD : operator : 123! <br>
 
 
 ### Requidment

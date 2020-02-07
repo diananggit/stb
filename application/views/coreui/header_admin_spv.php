@@ -59,66 +59,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="icon-speedometer"></i> Dashboard</a>
                     </li>
-                    <!-- <li class="nav-title">
+                    <li class="nav-title">
                         Contents
-                    </li> -->
-                    <!-- <li class="nav-item nav-dropdown">
+                    </li>
+                    <li class="nav-item nav-dropdown">
                         <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-folder-alt"></i> Reports</a>
                         <ul class="nav-dropdown-items">
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/reportCleaningBuilding"><i class="icon-graph"></i> Building Report</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/reportCleaningBathroom"><i class="icon-graph"></i> Bathroom Report</a>
-                            </li>
-                        </ul>
-                    </li> -->
-                    <li class="nav-title">
-                        Settings
-                    </li>
-                    <!-- <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-notebook"></i> Menu Management</a>
-                        <ul class="nav-dropdown-items">
-                            <li class="nav-item"> -->
-                                <!-- <a class="nav-link" href="<?php echo base_url();?>administrator/menu/add"><i class="icon-pencil"></i> Tambah Menu</a> -->
-                                <!-- <a class="nav-link" href="#"><i class="icon-pencil"></i> Tambah Menu</a> -->
-                            <!-- </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/menu"><i class="icon-list"></i> List Menu</a> -->
-                            <!-- </li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-notebook"></i> Role Management</a>
-                        <ul class="nav-dropdown-items">
-                            <li class="nav-item">
-                               <a class="nav-link" href="<?php //  echo base_url();?>administrator/menu/add"><i class="icon-pencil"></i> Tambah Menu</a> -->
-                              <!--    <a class="nav-link" href="#"><i class="icon-pencil"></i> Add Menu</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php // echo base_url();?>index.php/administrator/menu"><i class="icon-list"></i> List Menu</a>
-                            </li>
-                        </ul>
-                    </li> -->
-                    <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-notebook"></i> Desc. Management</a>
-                        <ul class="nav-dropdown-items">
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/area/add"><i class="icon-pencil"></i> Add Description</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/area"><i class="icon-list"></i> List Description</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-notebook"></i> User Management</a>
-                        <ul class="nav-dropdown-items">
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/user/add"><i class="icon-pencil"></i> Add User</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/user"><i class="icon-list"></i> List User</a>
+                                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/reportCleaningBuilding"><i class="icon-graph"></i> Production Report</a>
                             </li>
                         </ul>
                     </li>

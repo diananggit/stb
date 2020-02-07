@@ -56,7 +56,7 @@ class Administrator extends MX_Controller {
             $this->session->set_userdata('groupId',$res->GROUP_ID);
             $this->session->set_userdata('nik',$res->USERNAME);
             $this->session->set_userdata('username',$this->input->post('USERNAME'));
-            redirect('index.php/user/dashboard');
+            redirect('index.php/adminSPV/adminSpvDashboard');
         } else if ( $cnt !== 0 && $level == 3 ){
             // set session operator
             $this->session->set_userdata('userid',$res->U_ID);

@@ -57,30 +57,19 @@
             <nav class="sidebar-nav">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="icon-speedometer"></i> Dashboard</a>
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/user/dashboard"><i class="icon-speedometer"></i> Dashboard</a>
                     </li>
                     <li class="nav-title">
                         Contents
                     </li>
                     <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="fa fa-building"></i> Cleaning</a>
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="fa fa-building"></i> Productions</a>
                         <ul class="nav-dropdown-items">
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/user/building"><i class="icon-note"></i> Buildings</a>
+                                <a class="nav-link" href="<?php echo base_url();?>index.php/user/inputData"><i class="icon-note"></i> Input Data</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/user/bathroom"><i class="icon-note"></i> Bathrooms</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="fa fa-book"></i> Reporting</a>
-                        <ul class="nav-dropdown-items">
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/user/reportCleaningBuilding"><i class="icon-graph"></i> Buildings</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url();?>index.php/user/reportCleaningBathroom"><i class="icon-graph"></i> Bathrooms</a>
+                                <a class="nav-link" href="<?php echo base_url();?>index.php/user/bathroom"><i class="icon-doc"></i> List Data </a>
                             </li>
                         </ul>
                     </li>

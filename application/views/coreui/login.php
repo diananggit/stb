@@ -30,23 +30,32 @@
 
         .btn-primaryLogin {
             color: #fff;
+            background-color: #ff0000;
+            border-color: #000000; }
+
+        .btn-primaryLogin:hover {
+            color: #fff;
             background-color: #000000;
-            border-color: #20a8d8; }
-            .btn-primaryLogin:hover {
-                color: #fff;
-                background-color: #cccc00;
-                border-color: #187fa3; }
+            border-color: #fff; }
+
         .primaryLogin-primary:focus, .primaryLogin-primary.focus {
             box-shadow: 0 0 0 2px rgba(32, 168, 216, 0.5); }
+
         .primaryLogin.disabled, .primaryLogin:disabled {
-            background-color: #20a8d8;
-            border-color: #20a8d8; }
+            background-color: #000000;
+            border-color: #000000; }
+
         .primaryLogin:active, .primaryLogin.active,
         .show > .primaryLogin.dropdown-toggle {
             color: #fff;
             background-color: #1985ac;
             background-image: none;
             border-color: #187fa3; }
+
+        img.center {
+            display: block;
+            margin: 0 auto;
+        }
     </style>
 
 </head>
@@ -58,18 +67,19 @@
                     <div class="card cardLogin p-4">
                         <div class="card-block">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                             <img src="<?php echo TEMPLATE_ASSETS;?>img/logo.png" 
-                                width="130" 
+                                width="250" 
                                 height="80"
+                                class="center"
                             > 
                             </div>
-                            <div class="col-md-8">
+                            <!-- <div class="col-md-8">
                             <span style="text-align: right;"> 
                                 <h1>Login</h1> 
                             </span>
                             <span style="text-align: right;"> <p class="text-muted"><b>Sign In to your account</b></p> </span>
-                            </div>
+                            </div> -->
                         </div>    
                             <?php if ($this->session->flashdata('msg')) { ?>
                             <p><?php echo $this->session->flashdata('msg');?></p>
@@ -91,7 +101,7 @@
                                     </div>
                                 </div>
                                 <br/>
-                                <span style="text-align: center;"><h6>&copy; 2020 MIS - Pt. Globalindo.</h6> </span>
+                                <span style="text-align: center;"><h6>&copy; 2020, MIS - Pt. Globalindo.</h6> </span>
                            </form>
                         </div>
                     </div>

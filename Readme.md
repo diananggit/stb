@@ -63,7 +63,7 @@ Dependencies resolved. <br/>
 
 ### Preview
 
-![ no image ](template/coreui/img/loginPage2.png)
+![ no image ](template/coreui/img/loginPage3.png)
 
 ### License
 
